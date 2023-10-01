@@ -1,5 +1,8 @@
-# Hy2
-Nhảy cổng, kiểm soát tốc độ truyền tải
+# Đặc trưng
+- Nhảy cổng, kiểm soát tốc độ truyền tải
+- Hysteria là một giao thức proxy được mã hóa dựa trên UDP để truyền cơ bản. So với các giao thức hiện đang được sử dụng như ss, vmess, vless và trojan, hysteria có thể tăng đáng kể tốc độ Internet trong khi vượt qua kiểm duyệt tường lửa. Điều này là do hysteria đã sửa đổi khả năng kiểm soát tắc nghẽn của quic. thuật toán
+
+  
 # Cài đặt Hysteria2 chỉ bằng một cú nhấp chuột
 ```
 bash <(curl -fsSL https://get.hy2.sh/)
