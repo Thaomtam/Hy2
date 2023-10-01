@@ -1,0 +1,15 @@
+server: ip:443
+auth: 123456
+
+bandwidth:
+  up: 20 mbps
+  down: 100 mbps
+  
+tls:
+  sni: a.com
+  insecure: false #Bạn cần thay đổi nó thành true khi sử dụng tính năng tự ký
+
+socks5:
+  listen: 127.0.0.1:1080
+http:
+  listen: 127.0.0.1:8080
